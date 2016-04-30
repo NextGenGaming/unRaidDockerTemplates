@@ -2,27 +2,27 @@
 <Containers>
   <Beta>False</Beta>
 <Category>Network:Voip</Category>
-  <Name>nggaming-stash</Name>
+  <Name>nggaming-bitbucket</Name>
   <Description>
   </Description>
   <Overview>
  </Overview>
   <Support></Support>
-  <Registry>https://hub.docker.com/r/atlassian/stash/</Registry>
-  <GitHub>https://bitbucket.org/atlassian/docker-atlassian-stash/</GitHub>
-  <Repository>atlassian/stash</Repository>
+  <Registry>https://hub.docker.com/r/dweomer/atlassian-bitbucket/</Registry>
+  <GitHub>https://github.com/dweomer/dockerfiles-atlassian-bitbucket/</GitHub>
+  <Repository>dweomer/atlassian-bitbucket</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
         <Port>
-            <HostPort>7990</HostPort>
+            <HostPort>7991</HostPort>
             <ContainerPort>7990</ContainerPort>
             <Protocol>tcp</Protocol>
         </Port>
         <Port>
-            <HostPort>7999</HostPort>
+            <HostPort>7998</HostPort>
             <ContainerPort>7999</ContainerPort>
             <Protocol>tcp</Protocol>
         </Port>
@@ -30,18 +30,18 @@
   </Networking>
   <Environment>
     <Variable>
-      <Name>JIRA_VERSION</Name>
-      <Value>7.1.4</Value>
+      <Name>JIRA_BITBUCKET_VERSIONVERSION</Name>
+      <Value>4.4.0</Value>
     </Variable>
   </Environment>
   <Data>
     <Volume>
-      <HostDir>path to stash</HostDir>
-      <ContainerDir>/opt/atlassian/stash</ContainerDir>
+      <HostDir>path to bitbucket</HostDir>
+      <ContainerDir>/var/lib/bitbucket</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:7990]/</WebUI>
+  <WebUI>http://[IP]:[PORT:7991]/</WebUI>
   <Banner></Banner>
   <Icon></Icon>
   <ExtraParams></ExtraParams>
