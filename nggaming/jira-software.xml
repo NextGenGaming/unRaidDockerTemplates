@@ -10,7 +10,7 @@
   <Support></Support>
   <Registry>https://github.com/cptactionhank/docker-atlassian-jira-software/</Registry>
   <GitHub>https://github.com/NextGenGaming/unRaidDockerTemplates</GitHub>
-  <Repository>cptactionhank/docker-atlassian-jira-software</Repository>
+  <Repository>cptactionhank/atlassian-jira-software</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
