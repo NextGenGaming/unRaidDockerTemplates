@@ -8,8 +8,8 @@
   <Overview>
  </Overview>
   <Support></Support>
-  <Registry>https://bitbucket.org/atlassian/docker-atlassian-stash/</Registry>
-  <GitHub>https://github.com/NextGenGaming/unRaidDockerTemplates</GitHub>
+  <Registry>https://hub.docker.com/r/atlassian/stash/</Registry>
+  <GitHub>https://bitbucket.org/atlassian/docker-atlassian-stash</GitHub>
   <Repository>atlassian/docker-atlassian-stash</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
@@ -41,7 +41,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI></WebUI>
+  <WebUI>http://[IP]:[PORT:7990]/</WebUI>
   <Banner></Banner>
   <Icon></Icon>
   <ExtraParams></ExtraParams>
