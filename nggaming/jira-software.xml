@@ -2,13 +2,13 @@
 <Containers>
   <Beta>False</Beta>
 <Category>Network:Voip</Category>
-  <Name>binhex-teamspeak</Name>
+  <Name>nggaming-jira</Name>
   <Description>
   </Description>
   <Overview>
  </Overview>
   <Support></Support>
-  <Registry>https://github.com/cptactionhank/docker-atlassian-jira-software/</Registry>
+  <Registry>https://hub.docker.com/r/cptactionhank/atlassian-jira-software/</Registry>
   <GitHub>https://github.com/NextGenGaming/unRaidDockerTemplates</GitHub>
   <Repository>cptactionhank/atlassian-jira-software</Repository>
   <BindTime>true</BindTime>
