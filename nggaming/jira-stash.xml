@@ -9,8 +9,8 @@
  </Overview>
   <Support></Support>
   <Registry>https://hub.docker.com/r/atlassian/stash/</Registry>
-  <GitHub>https://bitbucket.org/atlassian/docker-atlassian-stash</GitHub>
-  <Repository>atlassian/docker-atlassian-stash</Repository>
+  <GitHub>https://bitbucket.org/atlassian/docker-atlassian-stash/</GitHub>
+  <Repository>atlassian/stash</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
