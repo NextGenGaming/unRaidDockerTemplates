@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Beta>False</Beta>
+<Category>Network:Voip</Category>
+  <Name>binhex-teamspeak</Name>
+  <Description>
+  </Description>
+  <Overview>
+ </Overview>
+  <Support></Support>
+  <Registry>https://github.com/cptactionhank/docker-atlassian-jira-software/</Registry>
+  <GitHub>https://github.com/NextGenGaming/unRaidDockerTemplates</GitHub>
+  <Repository>cptactionhank/docker-atlassian-jira-software</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+        <Port>
+            <HostPort>8080</HostPort>
+            <ContainerPort>8088</ContainerPort>
+            <Protocol>tcp</Protocol>
+        </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>JIRA_VERSION</Name>
+      <Value>7.1.4</Value>
+    </Variable>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>path to jira</HostDir>
+      <ContainerDir>/var/atlassian/jira</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>path to logs</HostDir>
+      <ContainerDir>/opt/atlassian/jira/logs</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI></WebUI>
+  <Banner></Banner>
+  <Icon></Icon>
+  <ExtraParams></ExtraParams>
+</Containers>
