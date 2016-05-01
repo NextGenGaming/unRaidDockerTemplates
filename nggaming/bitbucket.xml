@@ -29,10 +29,6 @@
     </Publish>
   </Networking>
   <Environment>
-    <Variable>
-      <Name>JIRA_BITBUCKET_VERSIONVERSION</Name>
-      <Value>4.4.0</Value>
-    </Variable>
   </Environment>
   <Data>
     <Volume>

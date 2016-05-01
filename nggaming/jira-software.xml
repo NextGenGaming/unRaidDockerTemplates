@@ -24,10 +24,6 @@
     </Publish>
   </Networking>
   <Environment>
-    <Variable>
-      <Name>JIRA_VERSION</Name>
-      <Value>7.1.4</Value>
-    </Variable>
   </Environment>
   <Data>
     <Volume>
