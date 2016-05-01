@@ -41,7 +41,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI></WebUI>
+  <WebUI>http://[IP]:[PORT:8088]/</WebUI>
   <Banner></Banner>
   <Icon></Icon>
   <ExtraParams></ExtraParams>
