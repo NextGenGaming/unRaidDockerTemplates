@@ -2,7 +2,7 @@
 <Containers>
   <Beta>False</Beta>
 <Category>Database:sql</Category>
-  <Name>postgres</Name>
+  <Name>nggaming-postgres</Name>
   <Description>
   </Description>
   <Overview>
