@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Beta>False</Beta>
+<Category>Database:sql</Category>
+  <Name>postgres</Name>
+  <Description>
+  </Description>
+  <Overview>
+ </Overview>
+  <Support></Support>
+  <Registry>https://hub.docker.com/_/postgres/</Registry>
+  <GitHub>https://github.com/docker-library/postgres/</GitHub>
+  <Repository>postgres</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+        <Port>
+            <ContainerPort>5432</ContainerPort>
+            <HostPort>5432</HostPort>
+            <Protocol>tcp</Protocol>
+        </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>POSTGRES_PASSWORD</Name>
+      <Value>postgrespw</Value>
+    </Variable>
+    <Variable>
+      <Name>POSTGRES_USER</Name>
+      <Value>postgresuser</Value>
+    </Variable>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>path to data</HostDir>
+      <ContainerDir>/var/lib/postgresql/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI></WebUI>
+  <Banner></Banner>
+  <Icon></Icon>
+  <ExtraParams></ExtraParams>
+</Containers>
